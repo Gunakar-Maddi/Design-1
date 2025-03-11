@@ -1,3 +1,15 @@
+# Did this code successfully run on Leetcode : Yes
+# Any problem you faced while coding this : No
+"""
+Initialized an array with -1 as default value with an array size of 10^6. 
+Insert of update the key(index) with given value
+return the value associated with the key(index) else -1
+removing the key by setting the value back to -1
+
+overall Space: O(10^6)
+Time and space complexity is O(1) for all operations
+
+"""
 class MyHashMap:
 
     def __init__(self): 
